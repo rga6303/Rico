@@ -1,0 +1,5 @@
+#we need to 'cast', telling program the data type of the input 
+#number = int(input("enter a number :")) this example will fail and will need the int to be float so it can take float numbers 
+
+number = float(input("enter a number :"))
+print ("if I this number by two I get", number*2)

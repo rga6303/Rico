@@ -1,0 +1,3 @@
+gigabytes= float(input( "how many gigabytes"))
+print ("megabytes",gigabytes *1024)
+

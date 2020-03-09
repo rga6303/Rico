@@ -1,0 +1,7 @@
+movie=[]
+print( "hello print your best movies")
+for i in range(0,3):
+   movie.append(input("what is your favorite movie"))
+print("you have chosen", movie[0], movie[1], movie[2])
+
+   

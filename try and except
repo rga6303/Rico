@@ -1,0 +1,26 @@
+"""this is zoo entry with error catching"""
+
+CHILD_AGE = 13
+
+CHILD_PRICE = 15
+
+keep_asking = True
+
+while keep_asking == True:
+   try:
+      child_age = int(input("What is your age")) 
+      keep_asking= False 
+  
+   except:
+      print("ERROR TRY AGAIN")
+     
+if child_age <= CHILD_AGE:
+
+    print("You must pay the Child price which is $", CHILD_PRICE)
+
+else:
+
+      print(" Welcome senior citizen you do not need to pay the child price ")
+
+       
+print("Welcome to the zoo")

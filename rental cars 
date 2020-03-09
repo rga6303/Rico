@@ -1,0 +1,31 @@
+i=0
+#make a list of all the cars 
+cars=["suzuki van", "toyota corolla","Honda CRV","susuki swift", "mitsubishi airtech", "nissan Dc ute", "toyota previa","toyota hi ace", "toyota hi ace"]     
+#line it up with the number of seats
+seats=[2,4,4,4,4,4,7,12,12]
+#they are all avalable at the start 
+avalability=[True,True,True,True,True,True,True,True,True]
+#help the decide the crs they need 
+
+
+for i in range(len(cars)):
+    print(i+1,cars[i], "has", seats[i],"seats")
+    car_seats=int(input("how many seats do you need"))
+    #ask them which car they want 
+    car_number=int(input("what car do you want(use the number infront"))
+    #ask to see if sure this is the car they want 
+    car_check= input("is this the car you want{},yes or no".format(cars[car_number-1]))
+    car_check.lower 
+    if car_check=="no":
+       car_number=int(input("what car do you want(use the number infront"))
+    else:
+        if avalability[car_number-1]==False: 
+           print ("you car is not avalable")
+        elif car_check==yes:
+            print(" you have booked",[car_number-1])
+            avalability[car_number-1]=False 
+        else:
+         print("error")
+            
+           
+        

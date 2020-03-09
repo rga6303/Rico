@@ -1,0 +1,16 @@
+student=input("are you a student")
+
+age= int(input("what is age"))
+
+if student== "yes": 
+   print("your ticket is $8")
+else:
+         if age >= 18:
+            print("your ticket cost $12")
+         elif age >=13:
+            print("your ticket is $9")
+         elif age >=5:
+            print("your ticket costs $7")
+         else:
+            print("free")
+   

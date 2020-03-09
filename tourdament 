@@ -1,0 +1,19 @@
+"""this task is to create a tourdament and deicde how many points you got"""
+i=0
+import random 
+win==3
+draw=2 
+loss==1 
+teams=[]
+keep_asking =True 
+
+while keep_asking == True:
+   team=input("what is your team") 
+   i=i+1
+   if team =="no more teams":
+        keep_asking=False 
+   else:
+        teams.append(team)
+       
+for i in range
+

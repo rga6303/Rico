@@ -1,0 +1,19 @@
+""" this program uses a while loop to repeatedly ask the user for there favorite movies"""
+movies=[]
+
+keep_asking=True
+while keep_asking == True:
+    movie_name=input("enter a favorite movie")
+    if movie_name=="stop":
+        keep_asking=False
+    else:
+        movies.append(movie_name)
+
+#print(movies)
+
+#for movie in movies:
+   #print(movie) 
+
+# to have a numberd list use this 
+for i in range( len(movies)):
+   print(i+1,movies[i])

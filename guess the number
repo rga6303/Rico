@@ -1,0 +1,12 @@
+number= random.randit
+
+keep_guessing==True 
+while keep_guessing:
+   guess=int(input("guess the number")
+             
+   if guess== number:
+     keep asking = False 
+   elif guess>number:
+      print("number is to big")
+   else guess<number:
+      print("number is too small")

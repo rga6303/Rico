@@ -1,0 +1,9 @@
+MIN_age=16
+MIN_weight=50
+
+age=int(input(print("whats your age\n")))
+weight=float(input(print("whats your weight\n")))
+if age>MIN_age and weight>MIN_weight:
+    print("your alowed")
+else:
+    print("fail")

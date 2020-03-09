@@ -1,0 +1,14 @@
+#this program uses list to find the mean of multiple numbers
+
+number=[]
+keep_asking=True 
+
+while keep_asking==True: 
+    new_number= float(input( "enter a number"))
+    if new_number ==-1: 
+       print ("the mean is",sum(number)/(len(number) ))
+       keep_asking= False
+    else:
+       number.append(new_number)
+    
+    

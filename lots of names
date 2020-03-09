@@ -1,0 +1,7 @@
+name_amount=("how many names do you want")
+name=input("what is your name")
+
+
+for i in range(0,number_amount)
+
+print(name)

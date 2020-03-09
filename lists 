@@ -1,0 +1,27 @@
+"""this program demonstrates how lits work, including how too print, change and append items"""
+
+
+fruit=[ "apples","oranges","durain","bananas"]
+type= print(fruit[(int(input("can I have a number")))])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#for i in range(2):  
+   #print("you are a asian")
+#for i in range(len(type)):
+   #print (type [i])

@@ -1,0 +1,34 @@
+
+
+
+Keep_bidding =True
+item=input("what is the item")
+price=float(input("what is the reserve price"))
+highest_bid=0
+while Keep_bidding==True:
+  
+ 
+  
+  bid= int(input("what is your bid"))
+       
+  if bid==-1:
+    print("the bid is over the winner is", name_bidder)  
+    Keep_bidding=False 
+  else:       
+     if bid>highest_bid:
+              name_bidder= input("what is your name")
+              highest_bid =bid  
+              highest_bidder=name_bidder
+    
+              print("the highest bidder is",highest_bidder,"at",highest_bid)  
+     else:
+       print("the highest bidder is",highest_bidder,"at",highest_bid)  
+  if bid<price:
+    print("to low, try a higher price")
+            
+                 
+
+
+          
+          
+

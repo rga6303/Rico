@@ -1,1 +1,4 @@
-print("Hello World")
+"""This progrm demonstrates how to use varibles to store information and how to print out the value of the varilbles"""
+# variables should have appropiate names 
+name= "John" 
+

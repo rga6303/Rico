@@ -1,0 +1,24 @@
+#this code is used to create a raffel with a random winner 
+import random 
+i=0
+#empty list to store participants 
+participant=[]
+keep_asking= True 
+#this is so we can have an item to buy 
+prize =input("what is the prize")
+#to set the price of the prize 
+price=int(input("what is the price"))
+# this is to continusly ask for names until told not to 
+while keep_asking == True:
+   name = input("what is your name")
+   #this is to increase the amount of people possible for a winner 
+   i=i+1
+   if name =="end":
+      keep_asking = False 
+   else:
+      #this is to add a participant to our list 
+      participant.append(name)
+      # this is to decide a ramdom winner 
+      winner= random.randint(0,i)
+         
+print(participant[random.randint(0,i)],"won the", prize,"at",price)

@@ -1,0 +1,16 @@
+"""This progrm demonstrates how to use varibles to store information and how to print out the value of the varilbles"""
+# variables should have appropiate names 
+name= "John" 
+#if there are multiple words in the variable name, use underscores 
+last_name= "Smith"
+
+print(name,last_name)
+print("hello",name,last_name)
+
+age=15 
+print("you are", age,"years old")
+
+#when getting input, use the input () function we need to set a variable to store the input 
+fav_animal= input("what is your favorite animal")
+
+print ("Wrong!", fav_animal, "is nothing compared to the majesitc reinturtle")

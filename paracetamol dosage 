@@ -1,0 +1,11 @@
+age= int(input("what is your age "))
+weight= float(input("what is your weight"))
+
+if age >11:
+   print("have 2 500 millagram tablets")
+elif weight==0:
+   print("that is impossible") 
+elif age==0:
+   print("that is imposible") 
+else:
+   print("have a",weight*10,"tablet")  

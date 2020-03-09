@@ -1,0 +1,17 @@
+
+
+repeat=while 
+
+keek_asking 
+for x in range (repeat):
+    item =input("what is your item?")
+    items= ["Rico", "Cow"]
+    if item in items:
+        print ("you chose correct")
+
+    else:
+        print ("item is bad try a better one")
+#need to add float so it doesnt think it is a string 
+
+price = float(input("how pricy was your item"))
+print("item","$", price * 1.15) 

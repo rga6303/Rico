@@ -1,0 +1,21 @@
+""" this program uses for loops"""
+
+import random 
+Rico=True 
+number = random.randint(1,100)
+cow= random.randint(100,150)
+top=number+cow
+#in for loops we set a start, ending and increment value 
+
+while Rico:
+    for i in range (number,cow):
+        print (i)
+    if top = 148:
+        print("sucess")
+      
+        
+    
+    
+        
+        
+    
