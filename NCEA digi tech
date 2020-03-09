@@ -1,0 +1,20 @@
+""" this code is a multiple choice quizz on sports"""
+i=-1 
+score=0 
+#make a list of the questions I will ask 
+questions=["what sport uses a stick and is played by 58,000 players in NZ", "what sport did Tiger Woods mainly play", "what is the diameter of a basket ball", "which state does Usain bolt belong to", " which player can touch the ball with there hands in soccer" 
+#make another list in alignment to the first 
+answers=["c","b","c","c","c"]
+keep_asking= True 
+while keep_asking:
+    name= print("what is your name")
+    print("Welcome",name) 
+    for i in range(0,len(questions))
+    answer_1=input(question[i])
+
+    if answer_1.lower()==c:
+      score+=1
+    else:
+        score+0
+      
+        
