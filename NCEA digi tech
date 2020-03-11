@@ -1,20 +1,43 @@
 """ this code is a multiple choice quizz on sports"""
+
+import time
 i=-1 
 score=0 
 #make a list of the questions I will ask 
-questions=["what sport uses a stick and is played by 58,000 players in NZ", "what sport did Tiger Woods mainly play", "what is the diameter of a basket ball", "which state does Usain bolt belong to", " which player can touch the ball with there hands in soccer" 
+questions=["what sport uses a stick and is played by 58,000 players in NZ\n a)footbal\n b)rugby\n c)hockey\n",
+"what sport did Tiger Woods mainly play\n a)cricket\n b)golf\n c)table tennis\n", 
+"what is the diameter of a basket ball\n a)3-6 inches\n b)7-10 inches\n c)10-12 inches\n", 
+"which country does Usain bolt belong to\n a)India\n b)China\n c)Jamaica\n",
+" which player can touch the ball with there hands in soccer\n a)striker\n b)defender\n c)goal keeper\n"] 
 #make another list in alignment to the first 
-answers=["c","b","c","c","c"]
+answers=["c","b","b","c","c"]
+#set keep asking to true
 keep_asking= True 
+#start a while loop 
 while keep_asking:
-    name= print("what is your name")
-    print("Welcome",name) 
-    for i in range(0,len(questions))
-    answer_1=input(question[i])
+    #get the name from you user 
+    name= input("what is your name\n")
+    #welcome them 
+    print("Welcome",name,"you will start the test soon") 
+    #this is there to help them digest the the welcome 
+    time.sleep(2)
+   #this is to start a for loop that will reapeat for the same amount of questions 
+    for i in range (0,len(questions)):
+       #this is to get an answer from the user 
+       i+1
+       answer_1=input(questions[i])
+       if answer_1==answers[i]:
+          print("you are correct")
+          score=score+1 
+          print("your score is", score)
+       else:
+           print("wrong")
+           print("your score is", score)
+           
+         
+        
 
-    if answer_1.lower()==c:
-      score+=1
-    else:
-        score+0
+
+ 
       
         
